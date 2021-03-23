@@ -11,7 +11,7 @@ from . import util
 from .util import (save_results, load_results, ema_logging, EMAError,
                    experiments_to_scenarios)
 
-# from . import analysis
+from . import analysis
 
 
 __version__ = '2.0.8'
